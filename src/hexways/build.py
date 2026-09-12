@@ -265,7 +265,9 @@ def reduce_all(tmp: Path, out_dir: Path, opts: Options) -> tuple[int, int]:
 # --- driver ------------------------------------------------------------------
 
 
-def build(source: Source, out_dir: Path, opts: Options = Options(), overwrite: bool = False) -> dict:
+def build(source: Source, out_dir: Path, opts: Options | None = None,
+          overwrite: bool = False) -> dict:
+    opts = opts or Options()
     if out_dir.exists() and any(out_dir.iterdir()):
         if not overwrite:
             raise FileExistsError(f"{out_dir} is not empty (use --overwrite)")

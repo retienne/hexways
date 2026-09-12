@@ -1,0 +1,20 @@
+{
+  "version": 0.6,
+  "generator": "hand-made to mirror crossing.osm",
+  "osm3s": {"timestamp_osm_base": "2026-01-01T00:00:00Z"},
+  "elements": [
+    {"type": "way", "id": 100,
+     "geometry": [{"lat": 47.40000, "lon": 8.500000}, {"lat": 47.40000, "lon": 8.500531}],
+     "tags": {"highway": "path"}},
+    {"type": "way", "id": 200,
+     "geometry": [{"lat": 47.39982, "lon": 8.500265}, {"lat": 47.40018, "lon": 8.500265}],
+     "tags": {"highway": "secondary", "bridge": "yes", "surface": "asphalt"}},
+    {"type": "way", "id": 300,
+     "geometry": [{"lat": 47.40100, "lon": 8.500000}, {"lat": 47.40100, "lon": 8.500400}],
+     "tags": {"highway": "residential", "tunnel": "yes", "layer": "-1"}},
+    {"type": "way", "id": 400,
+     "geometry": [{"lat": 47.40200, "lon": 8.500000}, {"lat": 47.40200, "lon": 8.500100}],
+     "tags": {"highway": "proposed"}},
+    {"type": "node", "id": 9, "lat": 47.40050, "lon": 8.500200, "tags": {"highway": "bus_stop"}}
+  ]
+}

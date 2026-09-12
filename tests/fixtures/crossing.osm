@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Hand-made fixture: a bridge over a path, a tunnel, and a path with no surface.
+     Around 47.40N 8.50E; at this latitude 0.000531 deg of longitude is 40 m. -->
+<osm version="0.6" generator="hand">
+  <node id="1" lat="47.40000" lon="8.500000"/>
+  <node id="2" lat="47.40000" lon="8.500531"/>
+  <node id="3" lat="47.39982" lon="8.500265"/>
+  <node id="4" lat="47.40018" lon="8.500265"/>
+  <node id="5" lat="47.40100" lon="8.500000"/>
+  <node id="6" lat="47.40100" lon="8.500400"/>
+  <node id="7" lat="47.40200" lon="8.500000"/>
+  <node id="8" lat="47.40200" lon="8.500100"/>
+  <!-- a highway=* node: not a way, must be ignored -->
+  <node id="9" lat="47.40050" lon="8.500200"><tag k="highway" v="bus_stop"/></node>
+  <!-- the path, west to east, no surface tag -->
+  <way id="100">
+    <nd ref="1"/><nd ref="2"/>
+    <tag k="highway" v="path"/>
+  </way>
+  <!-- the road bridge, south to north, over the middle of the path -->
+  <way id="200">
+    <nd ref="3"/><nd ref="4"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+  <!-- a street in a tunnel, explicit layer -->
+  <way id="300">
+    <nd ref="5"/><nd ref="6"/>
+    <tag k="highway" v="residential"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="layer" v="-1"/>
+  </way>
+  <!-- a proposed road: must not be indexed -->
+  <way id="400">
+    <nd ref="7"/><nd ref="8"/>
+    <tag k="highway" v="proposed"/>
+  </way>
+</osm>

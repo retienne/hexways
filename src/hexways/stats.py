@@ -29,7 +29,7 @@ class Stats:
     features: int = 0
     per_cell: Counter = field(default_factory=Counter)      # features per cell → cells
     on_line_cells: int = 0                                  # cells some line passes through
-    structure_cells: int = 0                                # cells touching bridge/tunnel/gallery/ford
+    structure_cells: int = 0                                # cells touching a structure
     multi_level: int = 0                                    # cells with features on >1 level
     multi_level_same_kind: int = 0                          # …of which a kind repeats across levels
     kinds: Counter = field(default_factory=Counter)         # per feature

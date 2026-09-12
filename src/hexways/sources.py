@@ -82,11 +82,13 @@ def _touches(parts: list[list[Point]], bbox: BBox | None) -> bool:
 
 
 def _iter_file(path: Path, bbox: BBox | None) -> Iterator[Way]:
-    # KeyFilter drops everything without highway=* before it reaches Python;
-    # node locations are cached regardless, which is what with_locations is for.
+    # The filters drop everything but highway=* ways before it reaches Python
+    # (bus stops are highway=* nodes). Node locations are cached regardless of
+    # the filters, which is what with_locations is for.
     processor = (
-        osmium.FileProcessor(str(path), osmium.osm.WAY)
+        osmium.FileProcessor(str(path))
         .with_locations()
+        .with_filter(osmium.filter.EntityFilter(osmium.osm.WAY))
         .with_filter(osmium.filter.KeyFilter("highway"))
     )
     for obj in processor:
@@ -140,11 +142,16 @@ def _fetch(query: str, attempts: int = 4) -> dict:
     raise RuntimeError(f"Overpass failed after {attempts} attempts: {last}")
 
 
+def cache_path(bbox: BBox, cache_dir: Path) -> Path:
+    """Where the Overpass response for ``bbox`` is cached (keyed by the exact query)."""
+    key = hashlib.sha1(_overpass_query(bbox).encode()).hexdigest()[:12]
+    return cache_dir / f"overpass-{'_'.join(map(str, bbox))}-{key}.osm.json"
+
+
 def fetch_overpass(bbox: BBox, cache_dir: Path) -> tuple[dict, Path]:
     """Return the Overpass JSON for ``bbox``, from ``cache_dir`` if already fetched."""
     query = _overpass_query(bbox)
-    key = hashlib.sha1(query.encode()).hexdigest()[:12]
-    cache = cache_dir / f"overpass-{'_'.join(map(str, bbox))}-{key}.osm.json"
+    cache = cache_path(bbox, cache_dir)
     if cache.exists():
         log.info("using cached Overpass response %s", cache)
         return json.loads(cache.read_text()), cache

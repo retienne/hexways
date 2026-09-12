@@ -1,0 +1,1216 @@
+[
+ {
+  "h3_index": "8d1f8edb2b0213f",
+  "parent_12": "8c1f8edb2b021ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b0283f",
+  "parent_12": "8c1f8edb2b029ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b028bf",
+  "parent_12": "8c1f8edb2b029ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b028ff",
+  "parent_12": "8c1f8edb2b029ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b029bf",
+  "parent_12": "8c1f8edb2b029ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b02c3f",
+  "parent_12": "8c1f8edb2b02dff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b02c7f",
+  "parent_12": "8c1f8edb2b02dff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b02cbf",
+  "parent_12": "8c1f8edb2b02dff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b02d3f",
+  "parent_12": "8c1f8edb2b02dff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b02d7f",
+  "parent_12": "8c1f8edb2b02dff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b02dbf",
+  "parent_12": "8c1f8edb2b02dff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b0603f",
+  "parent_12": "8c1f8edb2b061ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b060bf",
+  "parent_12": "8c1f8edb2b061ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": true,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b060ff",
+  "parent_12": "8c1f8edb2b061ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b061bf",
+  "parent_12": "8c1f8edb2b061ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b0643f",
+  "parent_12": "8c1f8edb2b065ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b0647f",
+  "parent_12": "8c1f8edb2b065ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": true,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b064bf",
+  "parent_12": "8c1f8edb2b065ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b064ff",
+  "parent_12": "8c1f8edb2b065ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b0657f",
+  "parent_12": "8c1f8edb2b065ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b0663f",
+  "parent_12": "8c1f8edb2b067ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b066bf",
+  "parent_12": "8c1f8edb2b067ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b066ff",
+  "parent_12": "8c1f8edb2b067ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b0673f",
+  "parent_12": "8c1f8edb2b067ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b067bf",
+  "parent_12": "8c1f8edb2b067ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": true,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b1523f",
+  "parent_12": "8c1f8edb2b153ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": true,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b1527f",
+  "parent_12": "8c1f8edb2b153ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b152bf",
+  "parent_12": "8c1f8edb2b153ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b152ff",
+  "parent_12": "8c1f8edb2b153ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b1533f",
+  "parent_12": "8c1f8edb2b153ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b1537f",
+  "parent_12": "8c1f8edb2b153ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": true,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b153bf",
+  "parent_12": "8c1f8edb2b153ff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b1583f",
+  "parent_12": "8c1f8edb2b159ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b1587f",
+  "parent_12": "8c1f8edb2b159ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b158bf",
+  "parent_12": "8c1f8edb2b159ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b158ff",
+  "parent_12": "8c1f8edb2b159ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b1593f",
+  "parent_12": "8c1f8edb2b159ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b1597f",
+  "parent_12": "8c1f8edb2b159ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b159bf",
+  "parent_12": "8c1f8edb2b159ff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b15a3f",
+  "parent_12": "8c1f8edb2b15bff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b15a7f",
+  "parent_12": "8c1f8edb2b15bff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": true,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b15abf",
+  "parent_12": "8c1f8edb2b15bff",
+  "features": [
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b15aff",
+  "parent_12": "8c1f8edb2b15bff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": true,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b15b3f",
+  "parent_12": "8c1f8edb2b15bff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": false,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b15b7f",
+  "parent_12": "8c1f8edb2b15bff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": true,
+    "source_id": 100
+   },
+   {
+    "kind": "secondary",
+    "structure": "bridge",
+    "level": 1,
+    "bearing": 0.0,
+    "surface": "paved",
+    "surface_source": "tagged",
+    "on_line": true,
+    "source_id": 200
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b15bbf",
+  "parent_12": "8c1f8edb2b15bff",
+  "features": [
+   {
+    "kind": "path",
+    "structure": "none",
+    "level": 0,
+    "bearing": 90.0,
+    "surface": "unknown",
+    "surface_source": "missing",
+    "on_line": false,
+    "source_id": 100
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b2203f",
+  "parent_12": "8c1f8edb2b221ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": true,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b2207f",
+  "parent_12": "8c1f8edb2b221ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": true,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b220bf",
+  "parent_12": "8c1f8edb2b221ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b220ff",
+  "parent_12": "8c1f8edb2b221ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b2213f",
+  "parent_12": "8c1f8edb2b221ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": true,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b2217f",
+  "parent_12": "8c1f8edb2b221ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b221bf",
+  "parent_12": "8c1f8edb2b221ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": true,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b2223f",
+  "parent_12": "8c1f8edb2b223ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b2233f",
+  "parent_12": "8c1f8edb2b223ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": true,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b2237f",
+  "parent_12": "8c1f8edb2b223ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b223bf",
+  "parent_12": "8c1f8edb2b223ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b2257f",
+  "parent_12": "8c1f8edb2b225ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b228bf",
+  "parent_12": "8c1f8edb2b229ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b228ff",
+  "parent_12": "8c1f8edb2b229ff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22abf",
+  "parent_12": "8c1f8edb2b22bff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22aff",
+  "parent_12": "8c1f8edb2b22bff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22c3f",
+  "parent_12": "8c1f8edb2b22dff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": true,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22c7f",
+  "parent_12": "8c1f8edb2b22dff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": true,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22cbf",
+  "parent_12": "8c1f8edb2b22dff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22cff",
+  "parent_12": "8c1f8edb2b22dff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22d3f",
+  "parent_12": "8c1f8edb2b22dff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22d7f",
+  "parent_12": "8c1f8edb2b22dff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ },
+ {
+  "h3_index": "8d1f8edb2b22dbf",
+  "parent_12": "8c1f8edb2b22dff",
+  "features": [
+   {
+    "kind": "residential",
+    "structure": "tunnel",
+    "level": -1,
+    "bearing": 90.0,
+    "surface": "paved",
+    "surface_source": "inferred",
+    "on_line": false,
+    "source_id": 300
+   }
+  ]
+ }
+]
