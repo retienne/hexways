@@ -55,7 +55,7 @@ continues as (level 0).
 ## Install and run
 
 ```sh
-pip install hexways          # Python >= 3.11; pulls in h3, numpy, pyarrow, osmium
+pip install git+https://github.com/retienne/hexways   # Python >= 3.11; pulls in h3, numpy, pyarrow, osmium
 
 # the real path: a Geofabrik extract
 hexways build --pbf switzerland-latest.osm.pbf --out ch/
