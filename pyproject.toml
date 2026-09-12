@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "hexways"
 version = "0.1.0"
-description = "OpenStreetMap ways as H3 cells — a lookup table for enriching GPS telemetry with road class, bridges, tunnels and surface"
+description = "OpenStreetMap ways as H3 cells: an H3-keyed lookup table of road class, bridges, tunnels, level, bearing and surface"
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
@@ -36,7 +36,7 @@ dev = ["pytest>=7", "ruff>=0.4"]
 hexways = "hexways.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/etienner/hexways"
+Homepage = "https://github.com/retienne/hexways"
 
 [tool.setuptools.packages.find]
 where = ["src"]
