@@ -42,16 +42,22 @@ class Stats:
 
 
 def _scan_file(path: Path, st: Stats, way_source: list[pa.Table]) -> None:
-    table = pq.read_table(path, columns=["features"])
     st.files += 1
     st.bytes += path.stat().st_size
-    feats = table.column("features").combine_chunks()
+    # A row is a cell, so any batch of whole rows can be reduced on its own;
+    # going row group by row group keeps the largest file out of memory.
+    for batch in pq.ParquetFile(path).iter_batches(columns=["features"]):
+        _scan_batch(batch.column(0), st, way_source)
+
+
+def _scan_batch(feats: pa.ListArray, st: Stats, way_source: list[pa.Table]) -> None:
     n = len(feats)
     if n == 0:
         return
     offsets = feats.offsets.to_numpy()
+    offsets = offsets - offsets[0]  # a sliced array's offsets start where the slice does
     starts = offsets[:-1]
-    values = feats.values
+    values = feats.flatten()  # honours the batch's slice of the buffer, .values would not
     st.cells += n
     st.features += len(values)
     st.per_cell.update(Counter(np.diff(offsets).tolist()))
@@ -110,7 +116,8 @@ def format_report(st: Stats) -> str:
         lines.append(f"settings        : resolution {m.get('resolution')}, corridor "
                      f"{m.get('corridor')}, step {m.get('step_m')} m")
         secs = m.get("seconds", {})
-        lines.append(f"ways            : {m.get('ways'):,}   network {km:,.0f} km   "
+        km_text = f"{km:,.0f}" if km >= 100 else f"{km:.2f}"
+        lines.append(f"ways            : {m.get('ways'):,}   network {km_text} km   "
                      f"build {secs.get('scatter', 0) + secs.get('reduce', 0):,.0f} s")
     lines.append(f"cells           : {st.cells:,}" +
                  (f"   = {st.cells / km:,.0f} cells per km of network" if km else ""))

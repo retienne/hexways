@@ -45,7 +45,8 @@ def _parser() -> argparse.ArgumentParser:
                    help="rings of cells around the line to include (default 1)")
     b.add_argument("--chunk-resolution", type=int, default=4,
                    help="one output file per H3 cell of this resolution (default 4)")
-    b.add_argument("--workers", type=int, default=1, help="processes for the reduce phase")
+    b.add_argument("--workers", type=int, default=1,
+                   help="worker processes for both phases (default 1)")
     b.add_argument("--cache-dir", type=Path, default=_default_cache(),
                    help="where Overpass responses are cached (default ~/.cache/hexways)")
     b.add_argument("--overwrite", action="store_true", help="replace a non-empty --out")

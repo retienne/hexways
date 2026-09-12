@@ -10,10 +10,11 @@ import shutil
 from pathlib import Path
 
 import h3
+import pyarrow as pa
 import pyarrow.parquet as pq
 import pytest
 
-from hexways.build import MANIFEST, Options, build
+from hexways.build import FEATURE_TYPE, MANIFEST, Options, build
 from hexways.cli import main
 from hexways.sources import cache_path, open_file, open_overpass
 from hexways.stats import compute, format_report
@@ -49,6 +50,18 @@ def rows(tmp_path_factory) -> list[dict]:
 def test_golden_rows(rows):
     expected = json.loads(GOLDEN.read_text())
     assert rows == expected
+
+
+def test_parquet_schema_is_the_contract(tmp_path):
+    build(open_file(FIXTURE), tmp_path)
+    (path,) = tmp_path.glob("*.parquet")
+    schema = pq.read_schema(path)
+    assert schema.names == ["h3_index", "parent_12", "features"]
+    assert schema.field("h3_index").type == pa.string()
+    assert schema.field("parent_12").type == pa.string()
+    assert schema.field("features").type.value_type == FEATURE_TYPE
+    meta = pq.read_metadata(path)
+    assert meta.row_group(0).sorting_columns[0].column_index == 0
 
 
 def test_rows_are_sorted_and_unique(rows):
@@ -160,3 +173,7 @@ def test_cli(tmp_path, capsys):
     assert "features / cell : 1:84.1%, 2:15.9%" in capsys.readouterr().out
     assert main(["-q", "build", "--pbf", str(FIXTURE), "--out", str(out)]) == 1
     assert main(["-q", "build", "--pbf", str(FIXTURE), "--out", str(out), "--resolution", "9"]) == 2
+
+
+def test_workers_give_identical_rows(tmp_path):
+    assert build_fixture(tmp_path, workers=2) == json.loads(GOLDEN.read_text())

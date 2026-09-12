@@ -36,8 +36,10 @@ cells with >1 level                    : 1,166,058 (0.95%)
 ```
 
 So: **123 million resolution-13 cells, 1.2 GB of zstd Parquet, 25 minutes**
-(19 min streaming the ways, 6 min sorting and writing), peak 3.1 GB of
-memory. The Swiss `highway=*` network is 288,000 km, not the ~180,000 km
+(19 min streaming the ways, 6 min sorting and writing) in one process, or
+**7 minutes with `--workers 4`** (5 min + 2 min; the PBF reader in the main
+process is then the limit). Peak memory is 1.4 GB for the reader plus about
+1.4 GB per worker on the largest chunk. The Swiss `highway=*` network is 288,000 km, not the ~180,000 km
 of road statistics — half of it is tracks, paths and footways.
 
 The per-kilometre figure is 429 cells, above the 281 the prototype measured
@@ -74,7 +76,7 @@ Options worth knowing:
 | `--resolution` | 13 | H3 cell resolution of the output rows (12–15) |
 | `--corridor` | 1 | rings of cells around the line to include; 0 = line cells only |
 | `--chunk-resolution` | 4 | one output file per H3 cell of this resolution |
-| `--workers` | 1 | processes used to reduce chunks in parallel |
+| `--workers` | 1 | worker processes for both phases; 4 gives ~3.5× on the Swiss extract |
 | `--overwrite` | | replace a non-empty output directory |
 | `--cache-dir` | `~/.cache/hexways` | where Overpass responses are kept |
 
@@ -197,8 +199,12 @@ The build has two phases so that a country never has to fit in memory:
    cells collected, and compact 17-byte records (cell, way, bearing, on_line)
    appended to a spill file per resolution-4 chunk.
 2. **reduce** — each chunk is sorted by cell, grouped, joined to the per-way
-   attributes and written as one Parquet file. Chunks are independent, hence
-   `--workers`.
+   attributes and written as one Parquet file.
+
+With `--workers N`, the main process keeps reading the extract and mapping
+tags (which need the way order) and hands the geometry of each way to N
+workers that densify, index and spill; chunks are then reduced N at a time.
+Memory stays flat with N: workers hold one chunk each, never the country.
 
 ## Why this exists
 
